@@ -21,7 +21,7 @@ class LambdaStack(Stack):
         self.services = Services(self, stage, arns)
 
         # Authorizers
-        DocsAuthorizerConfig(self.services)
+        # DocsAuthorizerConfig(self.services)
 
         # Docs
         DocsConfig(scope, self.services)
